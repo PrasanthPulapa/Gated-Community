@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome To Prasanth Gated Community</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+      text-align: center;
+      max-width: 400px;
+      width: 90%;
+    }
+    h1 {
+      margin-bottom: 10px;
+      font-size: 28px;
+    }
+    p {
+      font-size: 15px;
+      margin-bottom: 30px;
+      color: #e0e0e0;
+    }
+    .btn {
+      display: block;
+      width: 100%;
+      margin: 12px 0;
+      padding: 14px;
+      border: none;
+      border-radius: 12px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .btn.admin {
+      background: #ff5f6d;
+      background: linear-gradient(90deg, #ff5f6d, #ffc371);
+      color: #fff;
+    }
+    .btn.resident {
+      background: #43e97b;
+      background: linear-gradient(90deg, #43e97b, #38f9d7);
+      color: #fff;
+    }
+    .btn:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      margin-top: 20px;
+      font-size: 13px;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome To Prasanth Gated Community</h1>
+    <p>Select your role to continue</p>
+    <button class="btn admin" onclick="location.href='admin.jsp'">Admin</button>
+    <button class="btn resident" onclick="location.href='resident.jsp'">Resident</button>
+    <footer>Secure • Connected • Comfortable</footer>
+  </div>
+</body>
+</html>
