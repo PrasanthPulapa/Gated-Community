@@ -4,7 +4,7 @@ public class Constants {
 
 	public static final String URL ="jdbc:mysql://localhost:3306/gated_community";
 	public static final String USERNAME = "root";
-	public static final String PASSWORD = "Prabha@132";
+	public static final String PASSWORD = "";
 	public static final String INSERT_RESIDENT = "INSERT INTO residents (username, email, phone, role, password) VALUES(?,?,?,?,?)";
 	public static final String VALIDATE_RESIDENT = "SELECT * FROM residents WHERE email = ? AND password = ?";
 	public static final String VALIDATE_ADMIN = "SELECT * FROM residents WHERE email = ? AND password = ?";
